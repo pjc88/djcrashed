@@ -1,16 +1,8 @@
-<!--{% load static %} -->
+{% load static %}
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<title> Paulino's Website Created using django for djcrashed </title>
-</head>
-	<body>
-		<h1><a href="http://www.youtube.com"> Go to Youtube </a></h1>
-		<p> This webpage will be pushed to djcrashed on github, working with django </p>
-	</body>
-<head>
 
-<!-- {% block head_meta %}
+{% block head_meta %}
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,28 +11,24 @@
 
 <title>{% block title %}{% endblock title %}</title>
 
-{% block head_fonts %} -->
+{% block head_fonts %}
 <!-- Material Design fonts -->
-<!--
 <link rel="stylesheet" type="text/css"
     href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 <link rel="stylesheet" type="text/css"
     href="//fonts.googleapis.com/icon?family=Material+Icons">
 {% endblock head_fonts %}
 
-{% block head_styles %} -->
+{% block head_styles %}
 <!-- Bootstrap -->
-<!--
 <link rel="stylesheet" type="text/css"
-    href="{% static 'vendor/bootstrap/3.3.6/css/bootstrap.min.css' %}"> -->
+    href="{% static 'vendor/bootstrap/3.3.6/css/bootstrap.min.css' %}">
 <!-- Bootstrap Material theme -->
-<!--
 <link rel="stylesheet" type="text/css"
     href="{% static 'vendor/bootstrap/themes/material/0.5.9/css/bootstrap-material-design.min.css' %}">
 <link rel="stylesheet" type="text/css"
-    href="{% static 'vendor/bootstrap/themes/material/0.5.9/css/ripples.min.css' %}"> -->
+    href="{% static 'vendor/bootstrap/themes/material/0.5.9/css/ripples.min.css' %}">
 <!-- Custom styles -->
-<!--
 <link rel="stylesheet" type="text/css"
     href="{% static 'css/styles.css' %}">
 {% endblock head_styles %}
@@ -55,16 +43,14 @@
 {% block footer %}
 {% endblock footer %}
 
-{% block scripts %} -->
+{% block scripts %}
 <!-- Bootstrap -->
-<!--
 <script src="{% static 'vendor/jquery/1.12.2/jquery.min.js' %}">
 </script>
 <script src="{% static 'vendor/bootstrap/3.3.6/js/bootstrap.min.js' %}">
 </script>
--->
+
 <!-- Bootstrap Material theme -->
-<!--
 <script src="{% static 'vendor/bootstrap/themes/material/0.5.9/js/material.min.js' %}">
 </script>
 <script src="{% static 'vendor/bootstrap/themes/material/0.5.9/js/ripples.min.js' %}">
@@ -73,5 +59,5 @@
     $.material.init();
 </script>
 {% endblock scripts %}
-</body> -->
+</body>
 </html>
